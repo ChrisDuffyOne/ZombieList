@@ -100,7 +100,7 @@ header{
 
 /*///////////ADD ITEMS SECTION///////////////*/
 
-.itemBox{
+.itemBox {
 	background-color: #515252;
 	max-width: 500px;
 	padding-top:10px;
@@ -116,12 +116,11 @@ header{
 	max-width: 500px;
 }
 
-#addbox{
-	display: block;
+#addBox {
 	width: 350px;
 }
 
-#addButton{
+#addButton {
 	display: block;
 	margin: 0 auto;
 	border:none;
@@ -174,6 +173,8 @@ footer{
 	border: none;
 	padding-top: 0px;
 	overflow: hidden;
+	position: fixed;
+	bottom: 0;
 }
 
 .zombieWall{
